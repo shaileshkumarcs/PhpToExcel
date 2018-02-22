@@ -22,8 +22,9 @@
 		//$setSql = "YOUR SQL QUERY GOES HERE";
 
 		//$setRec = mysql_query($setSql);
-
+		//print_r($setRec);exit;
 		$setCounter = mysqli_num_fields($setRec);
+		//echo $setCounter; exit;
 
 		for ($i = 0; $i < $setCounter; $i++) {
 
